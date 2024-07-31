@@ -67,3 +67,81 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+
+
+
+Product Listing Web Application
+Overview
+This web application displays a list of products and allows users to perform CRUD operations (Create, Read, Update, Delete). The application is built using Vue.js and Vue Bootstrap for styling.
+
+Features
+Product Listing: Displays a list of products fetched from an external API.
+Search / Filter: Allows users to search for products by title.
+CRUD Operations: Users can create, edit, and delete products.
+Create: Add a new product to the list.
+Read: View the list of products.
+Update: Edit existing product details.
+Delete: Remove products from the list.
+Technologies Used
+Vue.js: JavaScript framework for building user interfaces.
+Axios: Promise-based HTTP client for making requests.
+Setup Instructions
+Prerequisites
+Node.js and npm are installed on your machine.
+A code editor, such as Visual Studio Code.
+
+
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+
+
+Install dependencies
+npm install
+
+Run the application 
+npm run dev
+
+This command will start the development server. Open your browser and go to http://localhost:3000 to view the application.
+
+Product viewing 
+http://localhost:3000/products
+
+Usage
+Adding a Product: Click the "Add Product" button and fill out the form.
+Editing a Product: Click the "Edit" button next to a product, make the necessary changes, and save.
+Deleting a Product: Click the "Delete" button next to the product you want to remove.
+Searching Products: Use the search bar at the top to filter products by title.
+API Reference
+This application uses the following fake API for product data:
+
+Fake Store API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
