@@ -1,3 +1,9 @@
+#Vercel Deployment
+
+https://neembly-frontend.vercel.app  
+
+https://neembly-frontend.vercel.app/products
+
 # neembly-frontend
 
 ## Build Setup
